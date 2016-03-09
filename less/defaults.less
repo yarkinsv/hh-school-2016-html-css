@@ -1,0 +1,27 @@
+@import "variables";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    color: @color-text;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+a {
+    color: @color-text;
+
+    &:hover {
+        color: @color-text;
+    }
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    src: url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}

@@ -6,6 +6,7 @@
     text-transform: uppercase;
     position: relative;
     margin: 0 0 50px;
+    letter-spacing: 0.05em;
 
     &:after {
         content: '';
@@ -35,6 +36,17 @@
     }
 
         &_level-3:after {
+            display: none;
+        }
+
+    &_level-4 {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        font-weight: normal;
+    }
+
+        &_level-4:after {
             display: none;
         }
 }

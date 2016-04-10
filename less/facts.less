@@ -1,0 +1,35 @@
+@import "variables";
+
+.facts {
+    padding: 75px 0 100px;
+    color: @color-text-reverse;
+    background: url(../img/background_facts.jpg) 0 50%/cover no-repeat;
+    text-align: center;
+
+    &__layer {
+        background: none;
+        background-color: rgba(141, 141, 141, 0.7);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 75px 0 75px;
+
+        &_number {
+            background: none;
+            margin: 10px 0 5px;
+            padding: 0 0 0;
+            font-weight: bold;
+            font-size: 28px;
+            letter-spacing: 0.025em;
+        }
+
+        &_parameter {
+            background: none;
+            margin: 5px 0 25px;
+            padding: 0 0 0;
+            font-size: 22px;
+            letter-spacing: 0.045em;
+        }
+    }
+}

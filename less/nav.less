@@ -1,3 +1,5 @@
+@import "variables";
+
 .nav {
     font-size: 18px;
     text-transform: uppercase;
@@ -14,6 +16,14 @@
             float: right;
         }
 
+        &__list_center {
+            float: center;
+        }
+
+        &__list_font-normal {
+            text-transform: none;
+        }
+
     &__item {
         display: inline-block;
     }
@@ -27,4 +37,46 @@
         &__link_right {
             margin-right: -10px;
         }
+}
+
+.nav-footer {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: @color-text-reverse;
+
+    &__list {
+        list-style: none;
+        float: center;
+
+        &__list_font-normal {
+            text-transform: none;
+        }
+    }
+
+    &__item {
+        display: inline-block;
+        margin: 0 0 5px 0;
+    }
+
+    &__link {
+        padding: 0 20px;
+        cursor: pointer;
+        text-transform: none;
+        color: @color-text-reverse;
+
+        &:hover {
+            color: @color-text-reverse;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        padding: 0 20px 30px;
+        color: @color-text-reverse;
+        text-align: left;
+    }
+
+    &_right {
+        text-align: right;
+    }
 }

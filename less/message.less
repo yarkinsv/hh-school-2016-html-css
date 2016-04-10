@@ -1,0 +1,48 @@
+@import "variables";
+
+.message {
+
+    &__input {
+        border: none;
+        border-bottom: solid 1px #c9c9c9;
+        transition: border 0.3s;
+        margin: 10px 10px 10px 0px;
+        width: 47%;
+        color: @color-text-reverse;
+        padding: 0 0 0;
+        height: 30px;
+        background-color: #222222;
+        font-size: 16px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &_message {
+            display: block;
+            border: none;
+            border-bottom: solid 1px #c9c9c9;
+            transition: border 0.3s;
+            margin: 10px 20px 10px 0px;
+            width: 96%;
+            padding: 0 0 0;
+            color: @color-text-reverse;
+            height: 30px;
+            background-color: #222222;
+            font-size: 16px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__submit {
+        border: none;
+        color: @color-text-reverse;
+        background-color: #222222;
+        font-size: 16px;
+        padding: 0 0 0;
+        margin: 75px 0 0;
+    }
+}
